@@ -11,6 +11,7 @@ attr_accessor :name, :artist
   end
   
   def artist_name
-    if @artist.name
+    if @artist
+      artist.name
   end
 end
