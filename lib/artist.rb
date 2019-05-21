@@ -17,7 +17,7 @@ class Artist
   end
   
   def self.song_count
-    @@all.compact.count
+    @songs.count 
     binding.pry
   end
     
