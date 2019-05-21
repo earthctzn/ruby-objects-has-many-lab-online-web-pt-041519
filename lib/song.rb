@@ -4,6 +4,6 @@ attr_accessor :name
   def initialize
     @name = name
     @songs = []
-    @all <<
+    @all << self
   end
 end
